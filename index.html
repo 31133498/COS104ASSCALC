@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShazCalcs</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator-container" class="fade-in-animation">
+        <!-- Header -->
+        <h1 class="calc-title">
+            <span class="calc-title-accent">SHAZ</span>Calc
+        </h1>
+        <!-- Input Fields -->
+        <div class="input-fields">
+            <input type="number" id="num1" placeholder="Enter first number" class="calc-input">
+            <input type="number" id="num2" placeholder="Enter second number" class="calc-input">
+        </div>
+        <!-- Output Area -->
+        <div class="result-area">
+            <h2 class="result-label">Result:</h2>
+            <p id="result" class="result-value"></p>
+        </div>
+        <!-- Operation Buttons -->
+        <div class="button-grid ops-grid">
+            <button id="add" class="operator-btn op-add">+</button>
+            <button id="subtract" class="operator-btn op-subtract">-</button>
+            <button id="multiply" class="operator-btn op-multiply">×</button>
+            <button id="divide" class="operator-btn op-divide">÷</button>
+            <button id="power" class="operator-btn op-power">xʸ</button>
+            <button id="modulus" class="operator-btn op-modulus">%</button>
+        </div>
+        <!-- Number Buttons -->
+        <div class="button-grid num-grid">
+            <button class="num-btn">7</button>
+            <button class="num-btn">8</button>
+            <button class="num-btn">9</button>
+            <button class="num-btn">4</button>
+            <button class="num-btn">5</button>
+            <button class="num-btn">6</button>
+            <button class="num-btn">1</button>
+            <button class="num-btn">2</button>
+            <button class="num-btn">3</button>
+            <button class="num-btn zero-btn">0</button>
+        </div>
+        <!-- Clear Button -->
+        <button id="clear" class="clear-btn">Clear</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
